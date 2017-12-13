@@ -6,7 +6,10 @@
   "author": "art.trubitsyn@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "classname": "^0.0.0",
     "classnames": "^2.2.5",
+    "html-metadata-resolver": "^1.1.1",
+    "htmlparser2": "^3.9.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

@@ -1,0 +1,26 @@
+@previewHeight: 300px;
+@previewHeaderHeight: 50px;
+
+.container
+{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: auto;
+  max-width: 500px;
+  
+  border: 2px solid gray;
+
+  &-header
+  {
+    max-height: @previewHeaderHeight;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+  }
+  
+  &-image
+  {
+    max-height: calc(@previewHeight - @previewHeaderHeight);
+  }
+}

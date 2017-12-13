@@ -1,0 +1,1 @@
+declare var LINK_PREVIEW_API_KEY: string
